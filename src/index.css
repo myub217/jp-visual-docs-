@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+<<<<<<< HEAD
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-gray-900 dark:text-white;
+}
+
+/* Anchor tag styles */
+a {
+  @apply font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-200;
+}
+
+/* Button base style */
+button {
+  @apply px-4 py-2 rounded-md border border-transparent font-medium transition-colors;
+}
+button:hover {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+=======
+@tailwind utilities;
+>>>>>>> ce8e5d5 (Add og:image and SEO meta tags)
